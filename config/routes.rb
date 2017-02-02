@@ -1,3 +1,9 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+  resources :searches, only: [:index, :new, :create] do
+    collection do
+      get :autocomplete
+    end
+  end
+  root 'searches#index'
+  mount Searchjoy::Engine, at: "searchjoy"
 end
