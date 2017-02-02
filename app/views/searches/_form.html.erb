@@ -1,0 +1,10 @@
+<div class="input-group col-md-6">
+  <%= form_tag searches_path do %>
+  <span class="input-group-btn">
+    <%= text_field_tag :title, nil, placeholder: "Search", class: "search-query form-control"  %>
+    <button class="btn btn-danger" type="submit">
+      <span class=" glyphicon glyphicon-search"></span>
+    </button>
+  </span>
+  <% end %>
+</div>
