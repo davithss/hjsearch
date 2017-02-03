@@ -12,6 +12,7 @@ gem 'searchkick'
 gem "searchjoy"
 gem 'pg'
 gem 'jquery-ui-rails'
+gem 'rails_12factor', group: :production
 
 group :development, :test do
   gem 'byebug', platform: :mri
