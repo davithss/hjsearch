@@ -7,13 +7,16 @@ This is a real time search getting the best match.
 * Rails version - 5.0.1
 
 * Configuration
-  On your terminal run:
-   bundle
-   rails db:create
-   rails db:migrate
+
+On your terminal run:
+bundle
+rails db:create
+rails db:migrate
 
 * How to run the test suite
-   rspec
+
+rspec
 
 * TODO
-  Match improvement: perhaps using a existent wordlist
+
+Match improvement: perhaps using a existent wordlist
