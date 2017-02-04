@@ -1,25 +1,19 @@
-# README
+# Real Time Search
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a real time search getting the best match.
 
-Things you may want to cover:
+* Ruby version - 2.3
 
-* Ruby version
-
-* System dependencies
+* Rails version - 5.0.1
 
 * Configuration
-
-* Database creation
-
-* Database initialization
+  On your terminal run:
+   bundle
+   rails db:create
+   rails db:migrate
 
 * How to run the test suite
+   rspec
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-# hjsearch
+* TODO
+  Match improvement: perhaps using a existent wordlist
